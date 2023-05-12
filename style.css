@@ -1,0 +1,355 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 여기까지 css리셋코드 */
+
+body {
+    width: 100%;
+}
+
+header > #header-box {
+    background-color: #fff;
+    width: 100%;
+    height: 52px;
+    margin-top: 10px;
+
+}
+#header-box > #logo {
+    background-image: url("https://cdn-pro-web-244-219.cdn-nhncommerce.com/paulfrenz_godomall_com/data/skin/mobile/dcoms_paulfrenz_5/img/banner/1bb87d41d15fe27b500a4bfcde01bb0e_33096.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 120px;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+   
+}
+
+
+.main-box {
+    padding: 20px 0;
+}
+
+.main-box > :first-child {
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 50%;
+
+}
+#img1{
+    background-image: url("https://cdn-pro-web-244-219.cdn-nhncommerce.com/paulfrenz_godomall_com/data/skin/mobile/dcoms_paulfrenz_5/img/banner/slider_1254989579/94b66dbea57304a0352c6f5d927fd1f8_26504.jpg");
+}
+
+#img2 {
+
+    background-image: url("https://cdn-pro-web-244-219.cdn-nhncommerce.com/paulfrenz_godomall_com/data/skin/mobile/dcoms_paulfrenz_5/img/banner/slider_1254989579/6a264e91e51109c23e71ee7a3b55fd92_56431.jpg");
+}
+
+
+
+main > div{
+    max-width: 100%;
+    height: 100%;
+    padding: 0 10px;
+}
+
+#goods-title1 {
+    padding: 8px 0 8px 10px;
+    color:#181818;
+    font-weight: bold;
+    text-align: center;
+   
+}
+.box-button{
+    flex:1;
+}
+.box-button >:first-child{
+    font-size: 12px;
+    width: 100%;
+    padding: 7px 10px 7px 10px;
+    border: 1px solid #898989;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+   
+    
+}
+ #am{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+
+}
+
+#content{
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    gap:24px;
+    overflow: auto;
+
+}
+.item-info >:first-child{
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px
+
+}
+.item-info {
+    font-size: 12px;
+    text-align: center;
+    color: #929292;
+    
+}
+.item-info > h2 {
+    color: black;
+}
+
+#socks-img1{
+    background-image: url("https://cdn-pro-web-244-219.cdn-nhncommerce.com/paulfrenz_godomall_com/data/goods/23/02/07/1000000817/1000000817_add3_09.jpg");
+}
+#socks-img2{
+    background-image: url("https://cdn-pro-web-244-219.cdn-nhncommerce.com/paulfrenz_godomall_com/data/goods/23/02/07/1000000816/1000000816_add3_040.jpg");
+}
+#socks-img3{
+    background-image: url("https://cdn-pro-web-244-219.cdn-nhncommerce.com/paulfrenz_godomall_com/data/goods/23/02/07/1000000815/1000000815_add3_015.jpg");
+}
+#socks-img4{
+    background-image: url("https://cdn-pro-web-244-219.cdn-nhncommerce.com/paulfrenz_godomall_com/data/goods/23/02/07/1000000802/1000000802_add3_048.jpg");
+}
+#socks-img5{
+    background-image: url("https://cdn-pro-web-244-219.cdn-nhncommerce.com/paulfrenz_godomall_com/data/goods/23/02/07/1000000801/1000000801_add3_040.jpg");
+}
+#socks-img6{
+    background-image: url("https://cdn-pro-web-244-219.cdn-nhncommerce.com/paulfrenz_godomall_com/data/goods/23/02/07/1000000800/1000000800_add3_049.jpg");
+}
+#socks-img7{
+    background-image: url("https://cdn-pro-web-244-219.cdn-nhncommerce.com/paulfrenz_godomall_com/data/goods/23/02/07/1000000763/1000000763_add3_015.jpg");
+}
+#socks-img8{
+    background-image: url("https://cdn-pro-web-244-219.cdn-nhncommerce.com/paulfrenz_godomall_com/data/goods/23/02/07/1000000762/1000000762_add3_037.jpg");
+}
+#socks-img9{
+    background-image: url("https://cdn-pro-web-244-219.cdn-nhncommerce.com/paulfrenz_godomall_com/data/goods/23/02/07/1000000761/1000000761_add3_053.jpg");
+}
+
+#insta{
+    
+    text-align: center;
+    margin: 30px 30px;
+    
+}
+#insta > h2{
+    font-size: 18px;
+}
+#insta > h3{
+    font-size: 12px;
+}
+#insta > #instaimg{
+    background-image: url("https://cdn-pro-web-244-219.cdn-nhncommerce.com/paulfrenz_godomall_com/data/skin/mobile/dcoms_paulfrenz_5/img/banner/5cf407adef33dde61aee67fd4a438c63_85986.jpeg");
+    width: 100%;  
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin: 20px 0;
+    padding-top:100%;
+    background-position: center;
+    
+}
+
+#main-banner1 {
+    background-color: #fff;
+    font-size: 15px;
+    border: 1px solid#333;
+    padding:10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+}
+
+#main-banner2{
+    background-image: url("https://cdn-pro-web-244-219.cdn-nhncommerce.com/paulfrenz_godomall_com/data/skin/mobile/dcoms_paulfrenz_5/img/banner/02c04d332d2ac303f0c11a29a7b6f9d2_97876.jpg");
+    width: 100%;
+    padding-top: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+ 
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color:#f5f5f5;
+    
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+.ft_box{
+    display: flex;
+        background-color: #fff;
+        font-size: 12px;
+        border: 1px solid#333;
+        padding:0px 50px;
+        box-sizing: border-box;
+        text-align: center;
+        display: inline-block;
+        flex: 1;
+        line-height: 50px;
+}
+
+.ft_box2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+#address{
+    font-size: 10px;
+}
+#address2{
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 10px;
+
+}
